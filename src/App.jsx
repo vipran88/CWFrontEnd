@@ -4,7 +4,7 @@ import Home from "./components/frontend/Home";
 import About from "./components/frontend/About";
 import './assets/css/style.scss';
 import Blog from "./components/frontend/Blog";
-import Contact from "./components/frontend/contact";
+import Contact from "./components/frontend/Contact";
 import Service from "./components/frontend/Service";
 import Project from "./components/frontend/Project";
 
