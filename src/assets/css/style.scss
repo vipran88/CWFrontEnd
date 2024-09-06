@@ -21,7 +21,7 @@ h2 {
 }
 
 h3 {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 p {
@@ -207,6 +207,7 @@ header {
           position: relative;
           overflow: hidden;
           color: $text-white;
+          margin-bottom: 20px;
       
           // Only apply hover effect to the specific `.item`
           &:hover {
@@ -263,7 +264,15 @@ header {
           }
         }
       }
+
+.section-4 {
+    .card {
+        border-radius: 40px;
+        margin-bottom: 20px;
+    }
+}
       
+
 
 footer {
     background-color: $footerBlack-color;

@@ -12,8 +12,12 @@ import SixthImg from "../../assets/images/construction6.jpg";
 import SeventhImg from "../../assets/images/construction7.jpg";
 import EighthImg from "../../assets/images/construction8.jpg";
 
+import Icon1 from "../../assets/images/icon-1.svg";
+import Icon2 from "../../assets/images/icon-2.svg";
+import Icon3 from "../../assets/images/icon-3.svg";
 
 import Service from "../common/Service";
+import CardComponent from "../common/CardComponent";
 
 const Home = () => {
   return (
@@ -88,6 +92,28 @@ const Home = () => {
               <Service nameTag="3rd Placeholder" imagePath={ThirdImg} />
               <Service nameTag="4th Placeholder" imagePath={FourthImg} />
             </div>
+          </div>
+        </section>
+
+        <section className="section-4 py-5">
+          <div className="container">
+            <div className="section-header text-center">
+              <span>Why Choose Us</span>
+              <h2>Discover our wide variety of projects</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore
+                aliquid necessitatibus quis hic ab aperiam tenetur culpa quos
+                odit nam? <pr /> Laboriosam fugit eius quaerat iste sequi neque
+                illum quasi asperiores.
+              </p>
+            </div>
+            <div className="row pt-4">
+              <CardComponent imagePath={Icon1}/>
+              <CardComponent imagePath={Icon2} />
+              <CardComponent imagePath={Icon3} />
+
+              </div>
+          
           </div>
         </section>
         <section className="section-3 bg-light py-5">
